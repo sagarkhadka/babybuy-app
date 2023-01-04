@@ -42,10 +42,11 @@
             android:layout_below="@+id/imgUser"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15sp"
-            android:fontFamily="sans-serif-light"
+            android:fontFamily="@font/sora_font"
             android:text="Name"
             android:textColor="@color/white"
-            android:textSize="32sp" />
+            android:textSize="32sp"
+            android:textStyle="bold" />
 
 
     </RelativeLayout>
@@ -74,13 +75,15 @@
                     android:layout_height="wrap_content"
                     android:text="Full Name"
                     android:textColor="@color/headings"
+                    android:fontFamily="@font/sora_font"
                     android:textSize="13sp" />
 
                 <TextView
                     android:id="@+id/userfragfullname"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
+                    android:fontFamily="@font/sora_font"
+                    android:textStyle="bold"
                     android:text="from database"
                     android:textColor="#000000"
                     android:textSize="18sp" />
@@ -103,6 +106,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Email"
+                    android:fontFamily="@font/sora_font"
                     android:textColor="@color/headings"
                     android:textSize="13sp" />
 
@@ -110,9 +114,10 @@
                     android:id="@+id/userfragEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
+                    android:fontFamily="@font/sora_font"
                     android:text="from database"
                     android:textColor="#000000"
+                    android:textStyle="bold"
                     android:textSize="18sp" />
 
                 <View

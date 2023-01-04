@@ -16,6 +16,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/sora_font"
             android:text="Purchased" />
 
         <Button
@@ -23,6 +25,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/sora_font"
             android:text="To buy" />
     </LinearLayout>
 
